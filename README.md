@@ -15,7 +15,7 @@ Collection of various Dockerfiles for different images
 
     	$ docker run -it \
             -v /tmp/.X11-unix:/tmp/.X11-unix \ # mount the X11 socket
-            -e DISPLAY=$DISPLAY \ # pass the display
+            -e DISPLAY=unix$DISPLAY \ # pass the display
             -v /dev/snd:/dev/snd --privileged \ # sound
             --name name_for_container \ # assign any name
             jorgeluisrmx/imagename
