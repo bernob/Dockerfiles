@@ -4,6 +4,7 @@ Dockerfiles
 Collection of various Dockerfiles for different images
 
 * `ubuntu-dev-base`: ubuntu14.04 + C/C++, Python dev libs. Aditionaly includes some CLI and GUI tools
+* `ros-indigo`: Ubuntu_14.04 + ROS-Indigo-desktop-full + C/C++, Python dev libs
 
 ## Running GUI
 
