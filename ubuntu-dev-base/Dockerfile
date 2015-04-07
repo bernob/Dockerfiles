@@ -1,6 +1,6 @@
 ######################################################
 
-# Dockerfile to build ubuntu14.04 + C/C++ Python
+# Dockerfile to build ubuntu:14.04 + C/C++ Python
 
 # dev libs. Aditionaly includes some CLI and GUI tools
 

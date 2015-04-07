@@ -1,8 +1,10 @@
-#################################################################################
+############################################################
 
-# Dockerfile with Ubuntu_14.04 + ROS-Indigo-desktop-full + C/C++, Python dev libs
+# Dockerfile to build Ubuntu:14.04 + ROS-Indigo-desktop-full
 
-#################################################################################
+# + C/C++, Python dev libs image
+
+############################################################
 
 # From inside this folder
 # docker build -t jorgeluisrmx/ros-indigo

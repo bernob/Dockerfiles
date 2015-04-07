@@ -5,12 +5,17 @@ Collection of various Dockerfiles for different images
 
 * `ubuntu-dev-base`: ubuntu14.04 + C/C++, Python dev libs. Aditionaly includes some CLI and GUI tools
 * `ros-indigo`: Ubuntu_14.04 + ROS-Indigo-desktop-full + C/C++, Python dev libs
+* `gazebo5`: Ubuntu_14.04 + Gazebo5 + C/C++, Python dev libs
+
+#### Third-party images
+
+* [Images of interest](ImagesOfInterest.md)
 
 ## Running GUI
 
 1. Guarantee access to the x server
 
-    	xhost +
+    	$ sudo xhost +
 
 2. Make the call to docker image
 
@@ -20,8 +25,6 @@ Collection of various Dockerfiles for different images
             -v /dev/snd:/dev/snd --privileged \ # sound
             --name name_for_container \ # assign any name
             jorgeluisrmx/imagename
-
-
 
 ## References
 
