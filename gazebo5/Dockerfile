@@ -22,4 +22,4 @@ RUN wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 
 RUN apt-get update
 
-RUN apt-get install gazebo5
+RUN apt-get install -y gazebo5

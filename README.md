@@ -3,9 +3,10 @@ Dockerfiles
 
 Collection of various Dockerfiles for different images
 
-* `ubuntu-dev-base`: ubuntu14.04 + C/C++, Python dev libs. Aditionaly includes some CLI and GUI tools
-* `ros-indigo`: Ubuntu_14.04 + ROS-Indigo-desktop-full + C/C++, Python dev libs
-* `gazebo5`: Ubuntu_14.04 + Gazebo5 + C/C++, Python dev libs
+* `ubuntu-dev-base`: ubuntu:14.04 + C/C++, Python dev libs. Aditionaly includes some CLI and GUI tools
+* `ros-indigo`: Ubuntu:14.04 + ROS-Indigo-desktop-full + C/C++, Python dev libs
+* `gazebo5`: Ubuntu:14.04 + Gazebo5 + C/C++, Python dev libs
+* `openFOAM`: Ubuntu:14.04 + openFOAM + C/C++, Python dev libs image
 
 #### Third-party images
 

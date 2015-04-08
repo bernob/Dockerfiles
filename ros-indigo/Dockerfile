@@ -29,4 +29,4 @@ RUN rosdep init
 RUN rosdep update
 RUN echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
 
-RUN apt-get install python-rosinstall
+RUN apt-get install -y python-rosinstall
