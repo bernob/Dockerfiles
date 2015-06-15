@@ -20,20 +20,18 @@ MAINTAINER jorgeluisrmx "jorgeluisrmx@gmail.com"
 
 RUN apt-get update
 RUN apt-get install -y texlive-full
-RUN apt-get install -y \
-    texlive-latex-extra \
-    aspell \
-    aspell-es \
-    spellutils \
-    ispell
+RUN apt-get install -y texlive-latex-extra
+RUN apt-get install -y aspell
+RUN apt-get install -y aspell-es
+RUN apt-get install -y spellutils
 
 # Installing GUI utilities
 
-RUN apt-get install -y \
-    kile \
-    lyx \
-    qtikz \
-    xfig
+RUN apt-get install -y kile
+RUN apt-get install -y lyx
+RUN apt-get install -y qtikz
+RUN apt-get install -y xfig
+    
 
 # Creating the home directory
 
