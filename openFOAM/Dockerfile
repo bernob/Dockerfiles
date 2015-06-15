@@ -89,3 +89,12 @@ RUN wmSET
 RUN ./Allwclean
 RUN ./Allwmake
 
+# gmsh installation
+
+RUN mkdir ~/gMsh
+WORKDIR ~/gMsh
+RUN wget http://geuz.org/gmsh/bin/Linux/gmsh-2.9.2-Linux64.tgz
+RUN tar -xzvf gmsh-2.9.2-Linux64.tgz
+RUN rm gmsh-2.9.2-Linux64.tgz
+RUN ln -s ~/gMsh/gmsh-2.9.2-Linux/bin/gmsh /usr/bin/gmsh
+
