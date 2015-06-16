@@ -35,8 +35,8 @@ RUN apt-get install -y xfig
 
 # Creating the home directory
 
-RUN mkdir ~/latexide
-ENV HOME ~/latexide
+RUN mkdir /home/latexide
+ENV HOME /home/latexide
 WORKDIR $HOME
 
 

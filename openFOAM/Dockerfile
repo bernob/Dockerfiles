@@ -34,23 +34,22 @@ RUN rm ThirdParty-2.3.1.tgz
 
 # Dependencies
 
-RUN apt-get install -y \
-    flex \
-    bison \
-    zlib1g-dev \
-    libopenmpi-dev \
-    openmpi-bin \
-    qt4-dev-tools \
-    libqt4-dev \
-    libqt4-opengl-dev \
-    freeglut3-dev \
-    libqtwebkit-dev \
-    gnuplot \
-    libreadline-dev \
-    libncurses-dev \
-    libxt-dev \
-    libscotch-dev \
-    libcgal-dev
+RUN apt-get install -y flex
+RUN apt-get install -y bison
+RUN apt-get install -y zlib1g-dev
+RUN apt-get install -y libopenmpi-dev
+RUN apt-get install -y openmpi-bin
+RUN apt-get install -y qt4-dev-tools
+RUN apt-get install -y libqt4-dev
+RUN apt-get install -y libqt4-opengl-dev
+RUN apt-get install -y freeglut3-dev
+RUN apt-get install -y libqtwebkit-dev
+RUN apt-get install -y gnuplot
+RUN apt-get install -y libreadline-dev
+RUN apt-get install -y libncurses-dev
+RUN apt-get install -y libxt-dev
+RUN apt-get install -y libscotch-dev
+RUN apt-get install -y libcgal-dev  
 
 # Setting environment variables
 RUN echo 'source $HOME/OpenFOAM/OpenFOAM-2.3.1/etc/bashrc' >> $HOME/.bashrc
